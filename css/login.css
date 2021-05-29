@@ -1,0 +1,84 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Calibri;
+  margin: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.form
+{
+ overflow: hidden;
+ margin:10px 50px 0px 50px;
+}
+
+.login
+{
+  float: left;
+  width: 50%;
+  padding:80px 0px 80px 120px;
+}
+
+.signup
+{
+  float: left;
+  width: 50%;
+  background-color: rgb(0, 153, 204, 0.5);
+  padding:80px 0px 80px 120px;
+}
+
+.form h1
+{
+  color: #094559;
+  margin-bottom: 0px;
+  padding-left: 100px;
+}
+
+.form h4
+{
+  color: #094559;
+  margin-top: 0;
+  padding-left: 100px;
+}
+
+input[type=text],[type=numbers], textarea
+{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form button
+{
+  padding: 10px 20px 10px 20px;
+  border: none;
+  background-color: rgb(0, 153, 204);
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 100px;
+}
+

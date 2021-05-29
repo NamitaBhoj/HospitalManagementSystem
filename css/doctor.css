@@ -1,0 +1,353 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Calibri;
+  margin: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*header start*/
+.header
+{
+  padding-top:20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/*partion for navbar*/
+.logo
+{
+  float: left;
+  width: 35%;
+}
+
+.navigationbar
+{
+  float: left;
+  width: 60%;
+}
+
+.login_button
+{
+  float: left;
+  width: 5%;
+}
+
+/*login button*/
+.login
+{
+  float: left;
+  color: white;
+  text-transform: uppercase;  
+  text-decoration: none;
+  background:#0099CC;
+  padding: 8px 10px 8px 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  font-family: Calibri;
+  border: none;
+  outline: none;
+  transition: all 0.4s ease 0s;
+ }
+
+.login:hover
+{
+  background-color: #285875;
+  color: white;
+}
+
+/*navigation bar*/
+.navigationbar 
+{
+  overflow: hidden;
+  font-family: Calibri;
+}
+
+.navigationbar a
+{
+  float: left;
+  color: black;
+  text-align: center;
+  margin: 16px 12px 0px 10px;
+  color: #0099CC;
+  text-decoration: none;
+  font-size: 16px; 
+  font-family: Calibri;
+}
+
+.navigationbar a:hover 
+{
+  color: #285875;
+  font-weight: bold;
+  border-bottom: 2px solid #285875;
+  border-radius: 0px;
+}
+
+.elemants
+{
+  float: right;
+}
+
+@media screen and (max-width: 500px) 
+{
+  .navigationbar a 
+  {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: Calibri;
+  }
+  
+  .elemants {
+    float: none;
+  }
+}
+
+/*header end*/
+
+
+/* center part start*/
+.center
+{
+  margin-top:30px;
+}
+.title
+{
+  padding:50px 90px 10px 90px;
+  font-size: 20px;
+  background-color: rgb(0, 153, 204, .3);
+  color: #094559;
+}
+
+.details
+{
+  margin:0px 0px 10px 0px;
+  font-size: 20px;
+  color: #3e6875;
+}
+
+.list
+{
+  overflow: hidden;
+  margin: 40px 90px 10px 90px;
+}
+
+.part1
+{
+  float: left;
+  width: 33%;
+  height: auto;
+  border: 2px solid rgb(0, 153, 204, .3);
+  border-radius: 50px;
+  margin: 0px 3px 3px 0px;
+}
+
+.part1:hover
+{
+  border: 2px solid #2886a6;
+  border-radius: 50px;
+}
+
+.part2
+{
+  float: left;
+  width: 33%;
+  height: auto;
+  border: 1px solid black;
+  border: 2px solid rgb(0, 153, 204, .3);
+  margin-right: 3px;
+  margin: 0px 3px 3px 0px;
+  border-radius: 50px;
+}
+
+.part2:hover
+{
+  border: 2px solid #2886a6;
+  border-radius: 50px;
+}
+
+.part3
+{
+  float: left;
+  width: 33%;
+  height: auto;
+  border: 1px solid black;
+  margin-right: 3px;
+  margin: 0px 3px 3px 0px;
+  border-radius: 50px;
+  border: 2px solid rgb(0, 153, 204, .3);
+}
+
+.part3:hover
+{
+  border: 2px solid #2886a6;
+  border-radius: 50px;
+}
+
+.img img
+{
+  margin: 20px 80px 20px 80px;
+  border-radius: 50px;
+}
+
+.name
+{
+   text-align: center;
+   color:   #696969;
+}
+
+.country
+{
+  font-size: 10px;
+  text-align: center;
+   color:   #696969;
+}
+
+.description
+{
+  text-align: center;
+  color: #3e6875;
+  font-size: 24px;
+  padding: 0px 10px 0px 10px;
+}
+
+.email
+{
+  text-align: center;
+  color: #3e6875;
+  font-size: 24px;
+  padding: 0px 10px 0px 10px;
+}
+.list a
+{
+  text-decoration: none;
+  padding: 0px 10px 0px 100px;
+  font-size: 22px;
+  color: #005673;
+}
+
+.list a:hover
+{
+  color: #0099CC;
+}
+
+.enter
+{
+  padding: 50px;
+  background-color:(0, 153, 204, .3);
+}
+
+.review h1
+{
+  background-color:(0, 153, 204, .3);
+}
+.footer
+{
+  overflow: hidden;
+  background-color: #285875 ;
+  font-family: Calibri;
+}
+  
+h3
+{
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+}
+
+.more
+{
+  color: white;
+}
+
+
+.footer a
+{
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.footer a:hover
+{
+  color: yellow;
+  border-bottom: 2px solid black;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.contact
+{
+  color: white;
+  font-size: 16px;
+}
+
+.info
+{
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.more_about_hospital
+{
+  float: left;
+  width: 20%;
+  height: 300px;
+  padding: 20px;
+}
+
+.social_media
+{
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 20px;
+}
+
+.contact
+{
+  float: left;
+  padding: 20px;
+  width: 25%;
+  height: 300px;
+}
+
+.quick_links
+{
+  float: left;
+  width: 25%;
+  height: 300px;
+  padding: 20px;
+}
+
+.copyrights
+{
+  text-align: center;
+  color: white;
+}

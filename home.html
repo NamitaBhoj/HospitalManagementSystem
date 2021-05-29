@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HOME</title>
+		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/0e552a0f3f.js" crossorigin="anonymous"></script>
+	</head>
+<body>
+
+	<!-- header start-->
+	<div class="header">	
+
+		<div class="logo">
+	      	<img class="logo" src="image/logo5.jpg" height="60" width="500" alt="">
+		</div>	
+
+		<div class="navigationbar">
+
+	      		<div class="elemants" >
+	              <a href="home.html">HOME</a>
+	              <a href="staff_info.html">STAFF LIST</a> 
+	              <a href="gallary.html">GALLARY</a>
+	              <a href="review.html">REVIEW</a>
+	              <a href="departments.html">DEPARTMENTS</a> 
+	              <a href="about_us.html">ABOUT US</a>
+	              <a href="contact_us.html">CONTACT US</a>
+	          	</div> 
+
+	    </div>
+
+	    <div class="login_button">
+
+	    	<a href="login.html"> <button class="login">login </button> </a>
+	    </div>
+
+	</div>
+	<!-- header end-->
+
+	<!-- center start-->
+
+	<div class="center">
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <img src="image/hospital11.jpg" style="width:1128px ; height: 400px ; opacity: 1;" alt="">
+		  <div class="text">
+		  	<h2 class="title">OUR DEPARTMENT INFORMATION</h2>
+		  	<h4 class="dis">We provide the most full medical services,<br> so every person could have the opportunity to<br> receive qualitative medical help. </h4>
+		  </div>
+		  	<a href="departments.html"><button class="dep_button">MORE INFORMATION</button></a>
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="image/staff.jpg" alt="" style="width:1128px ; height: 400px ; opacity: 1;">
+		  <div class="text">
+		  	<h2 class="title">KNOW MORE ABOUT OUR STAFF</h2>
+		  	<h4 class="dis">Clinical excellence, diversity,and access to<br> innovative technology are all hallmarks of <br>the graduate medical educationexperience <br>at Caring Doc.Our residents, fellows,<br>and renowned  staff share their experience <br>working at Caring Doc. 
+		  	</h4>
+		  	<a href="staff_info.html"><button class="staff_button">MORE INFORMATION</button></a>
+		  </div>
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="image/login_img1.jpg" style="width:1128px ; height: 400px; opacity: 1;"alt="">
+		  <div class="text">
+		  	<h2 class="title">LOGIN FOR MORE DETAILS </h2>
+		  	<h4 class="dis">Login here for more details and<br> information about your profile.
+		  		<br>And see your medicine list and details.
+		  	</h4>
+		  	<a href="login.html"><button class="log_button">LOGIN</button></a>
+		  </div>
+		</div>
+
+		</div>
+		<br>
+
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  
+		  for (i = 0; i < slides.length; i++) 
+		  {
+		    slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) 
+		  		{
+		  			slideIndex = 1
+		  		}    
+		
+		  slides[slideIndex-1].style.display = "block";  
+		  
+		  setTimeout(showSlides, 3000); // Change image every 2 seconds
+		}
+		</script>
+
+	</div>
+	
+	<div class="emergency">
+		<div class="con_details">
+			<h1 class="title_eme"><i class="fas fa-phone-alt" style="padding: 5px;"></i> EMERGENCY CONTACT NUMBERS</h1>
+			<h3 class="details">Please check below for numbers for emergency.</h3>
+			<table>
+				<tr>
+					<td>+2454545454</td>
+				</tr>
+				<tr>
+					<td>+2454545454</td>
+				</tr>
+			</table>
+				    
+		</div>
+		
+		<div class="working_hours">
+			<h1 class="title_eme"><i class="fas fa-user-clock" style="padding: 5px;"></i> Working hours</h1>
+			<h3 class="details">Please check below for our working hours throughout
+				the week excluding national holidays.</h3>
+			<table>
+				<tr>
+					<td style="padding: 5px;">Monday-Friday</td>
+					<td style="padding: 5px;">9:00AM--10:00PM</td>
+				</tr>
+				<tr>
+					<td style="padding: 5px;">Saturday-Sunday</td>
+					<td style="padding: 5px;">10:00AM--9:00PM</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="wecare">
+			<div class="wecare_img">
+				<img alt="" src="image/wecare.jpg" height="350" width="100%" style="opacity: 0.8">
+				<div class="wecare_text">
+		  			<h1 class="wecare_title">We provide quality care <br>that treats everyone.</h1>
+		  			<h4 class="wecare_des">We provide primary care when you need it, <br> get personalized and high quality healthcare by talking to top medical doctors.
+		  			</h4>
+		  			<div class="icons">
+		  				<div class="personal">
+		  				   <a href="departments.html"><i class="fas fa-user"></i></a>	
+		  					<a href="departments.html"><pre class="name">Personal</pre></a>
+		  				</div>
+		  				<div class="child">
+		  					<a href="departments.html"><i class="fas fa-baby"></i></a>
+		  					<a href="departments.html"><pre class="name">Child</pre></a>
+		  				</div>
+		  				<div class="family">
+		  					<a href="departments.html"><i class="fas fa-users"></i></a>
+		  					<a href="departments.html"><pre class="name">Family</pre></a>
+		  				</div>
+		  			</div>
+		 		</div>
+			</div>
+	</div>
+	<!-- center end-->
+	
+	<!--footer-->		
+	<div class="footer">
+		<div class="more_about_hospital">
+				<h3>More about hospital</h3>
+				<p class="more">The Hospital was founded in 1780 by Lady Hartstonge and other benefactors as a Fever and Lock Hospital. It treated epidemics during the Great Famine (1845-1847).  </p>	
+		</div>
+		<div class="social_media">
+			<ul>
+				<h3>Keep Connected</h3>
+				<li><a href="facebook.com"><img src="image\facebook_icon.jpg" height="20" width="20px"> Like us on Facebook</a></li>
+				<li><a href="facebook.com"><img src="image\insta_icon.jpg" height="20" width="20px"> Follow us on instagram</a></li>
+				<li><a href="facebook.com"><img src="image\twiter_icon.jpg" height="20" width="20px"> Follow us on twitter</a></li>
+				<li><a href="facebook.com"><img src="image\youtube_icon.jpg" height="20" width="20px"> Subscribe on Youtube</a></li>
+			</ul>
+
+		</div>
+		<div class="contact">
+		
+				<h3>Contact Information</h3>
+				<dl>
+				    <dt class="info"><i class="material-icons">home</i>  Address:</dt>
+				    <dd>1650 Cedar Ave, Montreal,<br> Quebec H3G 1A4, Canada</dd>
+
+				    <dt class="info"><i class="material-icons">email</i> Email id:</dt>
+				    <dd>xyz@gmail.com <br> pqz@gmail.com</dd>
+
+				    <dt class="info"><i class="material-icons">phone</i> Phone numbers:</dt>
+				    <dd>+85448484 <br> +454564655 </dd>
+				</dl>			
+		</div>
+		<div class="quick_links">
+			<ul>
+				<h3>Keep Connected</h3>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="departments.html">DEPARTMENTS</a> </li>
+				<li><a href="staff_info.html">DOCTOR LIST</a></li>
+				<li><a href="blogs_gallary.html">BLOGS AND GALLARY</a> </li>
+				<li><a href="about_us.html">ABOUT US</a></li>
+				<li><a href="contact_us.html">CONTACT US</a>   </li>
+			</ul>
+		</div>
+		<div class="copyrights">
+                <p class="rights_text">2018Waves All Rights Reserved.</p> 
+		</div>
+	</div>
+</body>
+</html>
+	              
+	              
+	              
+	              
+	              

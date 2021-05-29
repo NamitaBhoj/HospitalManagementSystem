@@ -1,0 +1,294 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Calibri;
+  margin: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*header start*/
+.header
+{
+  padding-top:20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/*partion for navbar*/
+.logo
+{
+  float: left;
+  width: 35%;
+}
+
+.navigationbar
+{
+  float: left;
+  width: 60%;
+}
+
+.login_button
+{
+  float: left;
+  width: 5%;
+}
+
+/*login button*/
+.login
+{
+  float: left;
+  color: white;
+  text-transform: uppercase;  
+  text-decoration: none;
+  background:#0099CC;
+  padding: 8px 10px 8px 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  font-family: Calibri;
+  border: none;
+  outline: none;
+  transition: all 0.4s ease 0s;
+ }
+
+.login:hover
+{
+  background-color: #285875;
+  color: white;
+}
+
+/*navigation bar*/
+.navigationbar 
+{
+  overflow: hidden;
+  font-family: Calibri;
+}
+
+.navigationbar a
+{
+  float: left;
+  color: black;
+  text-align: center;
+  margin: 16px 12px 0px 10px;
+  color: #0099CC;
+  text-decoration: none;
+  font-size: 16px; 
+  font-family: Calibri;
+}
+
+.navigationbar a:hover 
+{
+  color: #285875;
+  font-weight: bold;
+  border-bottom: 2px solid #285875;
+  border-radius: 0px;
+}
+
+.elemants
+{
+  float: right;
+}
+
+@media screen and (max-width: 500px) 
+{
+  .navigationbar a 
+  {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: Calibri;
+  }
+  
+  .elemants {
+    float: none;
+  }
+}
+
+/*header end*/
+
+
+/* center part start*/
+.center
+{
+  margin-top:30px;
+}
+.title
+{
+  padding:50px 90px 10px 90px;
+  font-size: 20px;
+  background-color: rgb(0, 153, 204, .3);
+  color: #094559;
+}
+
+.details
+{
+  margin:0px 0px 10px 0px;
+  font-size: 20px;
+  color: #3e6875;
+}
+
+
+.about_us
+{
+  overflow: hidden;
+}
+
+.text_us
+{
+  float: left;
+  width: 50%;
+  padding:20px 20px 20px 40px;
+}
+.text_us h6
+{
+  font-size: 15px;
+  color: #3e6875;
+  margin: 20px 10px 9px 10px;
+}
+.text_us h1
+{
+  color: #094559;
+  font-size: 40px;
+  margin:10px 10px 0px 10px;
+}
+.image_us
+{
+  float: left;
+  width: 50%;
+  padding:20px 20px 20px 20px;
+}
+
+.login_det
+{
+  font-size: 20px;
+  color: #005673;
+  font-weight: bold;
+}
+
+.text_us button
+{
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(0, 86, 115, 0.3);
+  padding: 10px 30px 10px 30px;
+  margin-left: 10px;
+}
+
+.text_us a
+{
+  text-decoration: none;
+  padding: 30px 30px 30px 30px;
+  color: #094559; 
+  font-size: 15px;
+}
+/* footer */
+.footer
+{
+  overflow: hidden;
+  background-color: #285875 ;
+  font-family: Calibri;
+}
+  
+h3
+{
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+}
+
+.more
+{
+  color: white;
+}
+
+
+.footer a
+{
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.footer a:hover
+{
+  color: yellow;
+  border-bottom: 2px solid black;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.contact
+{
+  color: white;
+  font-size: 16px;
+}
+
+.info
+{
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.more_about_hospital
+{
+  float: left;
+  width: 20%;
+  height: 300px;
+  padding: 20px;
+}
+
+.social_media
+{
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 20px;
+}
+
+.contact
+{
+  float: left;
+  padding: 20px;
+  width: 25%;
+  height: 300px;
+}
+
+.quick_links
+{
+  float: left;
+  width: 25%;
+  height: 300px;
+  padding: 20px;
+}
+
+.copyrights
+{
+  text-align: center;
+  color: white;
+}
+

@@ -1,0 +1,494 @@
+﻿* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  margin: 0;
+  font-family: Calibri;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*header start*/
+.header
+{
+  padding-top:20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/*partion for navbar*/
+.logo
+{
+  float: left;
+  width: 35%;
+}
+
+.navigationbar
+{
+  float: left;
+  width: 60%;
+}
+
+.login_button
+{
+  float: left;
+  width: 5%;
+}
+
+/*login button*/
+.login
+{
+  float: left;
+  color: white;
+  text-transform: uppercase;  
+  text-decoration: none;
+  background:#0099CC;
+  padding: 8px 10px 8px 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  font-family: Calibri;
+  border: none;
+  outline: none;
+  transition: all 0.4s ease 0s;
+ }
+
+.login:hover
+{
+  background-color: #285875;
+  color: white;
+}
+
+/*navigation bar*/
+.navigationbar 
+{
+  overflow: hidden;
+  font-family: Calibri;
+}
+
+.navigationbar a
+{
+  float: left;
+  color: black;
+  text-align: center;
+  margin: 16px 12px 0px 10px;
+  color: #0099CC;
+  text-decoration: none;
+  font-size: 16px; 
+  font-family: Calibri;
+}
+
+.navigationbar a:hover 
+{
+  color: #285875;
+  font-weight: bold;
+  border-bottom: 2px solid #285875;
+  border-radius: 0px;
+}
+
+.elemants
+{
+  float: right;
+}
+
+@media screen and (max-width: 500px) 
+{
+  .navigationbar a 
+  {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: Calibri;
+  }
+  
+  .elemants {
+    float: none;
+  }
+}
+
+/*header end*/
+
+
+/* center part start*/
+.mySlides 
+{
+  display: none;
+}
+
+img 
+{
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container 
+{
+  max-width: 1000px;
+  position: relative;
+  margin:0px;
+}
+
+/* Caption text */
+.text
+{
+padding: 8px 12px;
+position: absolute;
+top: 45px;
+left: 60px;
+width: auto;
+}
+
+.title
+{
+  background-color:rgba(5, 5, 5, 0.5);
+  color: white;
+  letter-spacing: 2px;
+  padding:5px;
+}
+
+.dis
+{
+  color: #1a3e54;
+  letter-spacing: 1px;
+  font-size: 18px;
+  background-color: rgba(0, 98, 130, 0.3);
+  padding:5px;
+}
+
+.dep_button
+{
+font-size: 15px;
+padding: 8px 10px;
+position: absolute;
+top: 225px;
+margin-top: 7px;
+left: 72px;
+color: white;
+text-transform: uppercase;  
+text-decoration: none;
+background:rgba(0, 98, 130, 0.6);
+padding: 8px 20px 8px 20px;
+border: none;
+outline: none;
+}
+.dep_button:hover
+{
+  font-weight: bold;
+  background:rgba(0, 98, 130, 1);
+}
+.staff_button
+{
+font-size: 15px;
+padding: 8px 10px;
+position: absolute;
+top: 250px;
+margin-top: 7px;
+left: 12px;
+color: white;
+text-transform: uppercase;  
+text-decoration: none;
+background:rgba(0, 98, 130, 0.9);
+padding: 8px 20px 8px 20px;
+border: none;
+outline: none;
+}
+.staff_button:hover
+{
+  font-weight: bold;
+  background:rgba(0, 98, 130, 1);
+}
+.log_button
+{
+font-size: 15px;
+padding: 8px 10px;
+position: absolute;
+top: 180px;
+margin-top: 7px;
+left: 12px;
+color: white;
+text-transform: uppercase;  
+text-decoration: none;
+background:rgba(0, 98, 130, 0.9);
+padding: 8px 20px 8px 20px;
+border: none;
+outline: none;
+}
+.log_button:hover
+{
+  font-weight: bold;
+  background:rgba(0, 98, 130, 1);
+}
+
+.active
+{
+  background-color: #717171;
+}
+    
+@media only screen and (max-width: 300px)
+{
+  .text {font-size: 11px}
+}
+
+.emergency
+{
+  overflow: hidden;
+  margin: 10px 0px 0px 0px;
+  background-color: rgb(0, 153, 204, .3);
+}
+
+.con_details
+{
+  float: left;
+  padding: 30px;
+  width: 50%;
+}
+
+.working_hours
+{
+  float: left;
+  padding: 30px;
+  width: 50%;
+}
+
+.title_eme
+{
+  color: #094559;
+}
+
+.details
+{
+  color: #3e6875;
+}
+.numbers
+{
+  padding: 0px;
+}
+
+table, .numbers
+{
+  color: #005673;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wecare
+{
+  height: 350px;
+  margin: 30px 0px 40px 0px;
+  position: relative;
+}
+
+.wecare_text
+{
+  position: absolute;
+  bottom: 20px;
+  left: 80px;
+}
+
+.wecare_title
+{
+  color: #094559;
+}
+
+.wecare_des
+{
+  color: #3e6875;
+}
+
+.icons
+{
+  overflow: hidden;
+}
+
+.icons a
+{
+  text-decoration: none;
+  color: #285875;
+}
+
+.icons i:hover
+{
+  border: 2px solid  white;
+  color:rgb(0, 153, 204);
+}
+
+.icons a:hover
+{
+  color:#285875;
+  font-weight: bold;
+}
+
+.personal
+{
+  float: left;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 20px 0px 20px;
+  border: 2px solid  grey;
+  border-radius: 50px;
+  margin: 0px 5px 0px 5px;
+  background-color: rgb(0, 153, 204, .3);
+}
+
+.child
+{
+  float: left;
+  font-size:35px;
+  padding: 20px 20px 0px 20px;
+  border: 2px solid  grey;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+  background-color: rgb(0, 153, 204, .3);
+}
+
+.family
+{
+  float: left;
+  font-size: 35px;
+  padding: 20px 20px 0px 20px;
+  border: 2px solid  grey;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+  background-color: rgb(0, 153, 204, .3);
+}
+
+.icons i
+{
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 200px;
+}
+
+.fa-user
+{
+  padding: 20px;
+}
+.fa-baby
+{
+  padding: 20px 25px 20px 25px;
+}
+.fa-users
+{
+  padding: 20px 20px 20px 20px;
+}
+.name
+{
+  font-size: 20px;
+  text-align: center;
+}
+/* footer */
+.footer
+{
+  overflow: hidden;
+  background-color: #285875 ;
+  font-family: Calibri;
+}
+  
+h3
+{
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+}
+
+.more
+{
+  color: white;
+}
+
+
+.footer a
+{
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.footer a:hover
+{
+  color: yellow;
+  border-bottom: 2px solid black;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.contact
+{
+  color: white;
+  font-size: 16px;
+}
+
+.info
+{
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.more_about_hospital
+{
+  float: left;
+  width: 20%;
+  height: 300px;
+  padding: 20px;
+}
+
+.social_media
+{
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 20px;
+}
+
+.contact
+{
+  float: left;
+  padding: 20px;
+  width: 25%;
+  height: 300px;
+}
+
+.quick_links
+{
+  float: left;
+  width: 25%;
+  height: 300px;
+  padding: 20px;
+}
+
+.copyrights
+{
+  text-align: center;
+  color: white;
+}
+
